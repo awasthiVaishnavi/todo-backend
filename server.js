@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin:"https://todo-website145.netlify.app",
+  origin:"https://todo-frontend-zemx.vercel.app",
   credential:true,
 }));
 app.use(express.json());
