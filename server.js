@@ -6,7 +6,10 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin:"https://todo-website145.netlify.app",
+  credential:true,
+}));
 app.use(express.json());
 
 // Connect to MongoDB
