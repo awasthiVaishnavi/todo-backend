@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin:"https://todo-frontend-ten-green.vercel.app",
+  origin:"https://todo-frontend-ochre-pi.vercel.app",
   credential:true,
 }));
 app.use(express.json());
